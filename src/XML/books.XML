@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!--
+    <?xml version = "1.0" encoding = "utf-8"?>
+    以上是文件的声明
+    version = "1.0"   version 代表版本号
+    encoding = "utf-8"  encoding 代表xml文件本身的编码方式
+-->
+<!--标签是自定义得，可以使用汉字-->
+<books> <!--books是根节点，代表多个图书信息-->
+    <!--以下是双标签-->
+    <book sn = "1"> <!--book表示以一个图书信息， sn属性表示图书得序列号-->
+        <name>时间简史</name> <!--name标签表示书名-->
+        <author>霍金</author> <!--author标签表示作者-->
+        <price>75</price>  <!--price 表示图书价格-->
+    </book>
+    <book sn = "2"> <!--book表示以一个图书信息， sn属性表示图书得序列号-->
+        <name>java从入门到放弃</name> <!--name标签表示书名-->
+        <author>程云博</author> <!--author标签表示作者-->
+        <price>100</price>  <!--price 表示图书价格-->
+    </book>
+    <!--以下使用单标签-->
+    <book sn="3" name="javaEE" author="张三" price="9999"/>
+</books>
